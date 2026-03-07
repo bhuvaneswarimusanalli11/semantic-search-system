@@ -56,14 +56,46 @@ pip install -r requirements.txt
 ---
 
 ## Run the Application
+## How to Run the Project
 
-Start the API server
+Follow the steps below to run the application locally.
 
+### 1. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+### 2. Activate the virtual environment
+
+On Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+### 3. Install the required dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Start the FastAPI server
+
+```bash
 uvicorn api.main:app --reload
+```
 
-Open in browser
+After running the above command, the server will start and a message will appear in the terminal showing the local server address.
+
+### 5. Open the API documentation
+
+Open the following link in your browser:
 
 http://127.0.0.1:8000/docs
+
+This will open the interactive API documentation where you can test the semantic search endpoints.
+
 
 ---
 
