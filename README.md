@@ -172,6 +172,7 @@ Example response:
   "hit_rate": 0
 }
 ```
+<img width="1777" height="634" alt="image" src="https://github.com/user-attachments/assets/813a24b6-e07f-4430-82d9-1a8daf4ff338" />
 
 ---
 
