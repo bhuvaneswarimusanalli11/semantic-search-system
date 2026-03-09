@@ -43,13 +43,16 @@ cache/
     semantic_cache.py      # Semantic caching logic
 
 clustering/
-    query_clustering.py    # Query clustering
+    fuzzy_clustering.py    # Query clustering
 
 embeddings/
-    embedding_model.py     # Text embedding generation
+    embedder.py     # Text embedding generation
 
 vector_store/
-    faiss_index.py         # FAISS vector search
+    faiss_store.py         # FAISS vector search
+
+utils/
+preprocessing.py           #prepocessing
 
 data_loader.py             # Dataset loading
 
